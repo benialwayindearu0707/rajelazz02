@@ -12,7 +12,7 @@ Branches → membuat versi cabang kode untuk eksperimen.
 Releases → rilis versi stabil (misalnya v1.0).
 Security → laporan kerentanan dan dependensi bermasalah
 
-# Membuat Repository di GitHub
+# Membuat Repository dg VScode + membuat markdown
 Login ke GitHub.
 Klik tombol New Repository (ikon + di pojok kanan atas).
 Isi form: Repository name → nama repo (misalnya: belajar-github).
@@ -20,9 +20,20 @@ Description (optional) → deskripsi singkat repo.
 Pilih Public atau Private.
 Centang Initialize this repository with a README (opsional).
 Klik Create repository.
-Repository sudah jadi. atau bisa clone repo itu ke lokal dengan:
-git clone https://github.com/username/belajar-github.git
-
+ke anaconda promt.
+ change directory di anaconda ke directory penyimpnan file mu.
+  (dir : cek directory, cd  : change di directory).
+   git clone (link dari repository yg disalin).
+    change directory llagi, ke repository baru kamu (cd namareppositorykamu).
+     git config (git config --global user.email "email UGM").
+      git init (git init).
+open VScode, open folder repoositiry
+edit README.md/ubah bebas repository
+save
+balik ke anaconda promt
+ git add (git add .)
+  git commit (git commit -m "menambahmarkdown")
+   git push
 # Membuat Profile README di GitHub
 Profile README adalah semacam profil keren di halaman GitHub.
 Buat repository baru dengan nama persis sama dengan username GitHub.
